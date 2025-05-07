@@ -4,7 +4,9 @@ from torch.nn import functional as F
 from PIL import Image
 import numpy as np
 import cv2
-from huggingface_hub import hf_hub_url, cached_download
+from huggingface_hub import hf_hub_url
+# joeguo 20250507: cached_download was renamed to hf_hub_download since 0.26.0
+from huggingface_hub import hf_hub_download as cached_download
 
 from .rrdbnet_arch import RRDBNet
 from .utils import pad_reflect, split_image_into_overlapping_patches, stich_together, \
