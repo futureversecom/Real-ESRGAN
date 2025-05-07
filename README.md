@@ -1,3 +1,7 @@
+# Fork Info
+
+This fork is created for [3d-img2texture-v3](https://github.com/futureversecom/3d-img2texture-v3/blob/master/image2tex/texgen/upscalers/pipelines.py#L83).
+
 # Real-ESRGAN
 PyTorch implementation of a Real-ESRGAN model trained on custom dataset. This model shows better results on faces compared to the original version. It is also easier to integrate this model into your projects.
 
